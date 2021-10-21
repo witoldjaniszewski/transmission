@@ -1,0 +1,58 @@
+---
+:source:
+  :path: test
+  :file: test_transmission.c
+:successes:
+- :test: test_gear_if_high_then_up
+  :line: 15
+  :message: ''
+  :unity_test_time: 0
+- :test: test_gear_if_low_then_down
+  :line: 23
+  :message: ''
+  :unity_test_time: 0
+- :test: test_gear_if_stable_no_shift
+  :line: 31
+  :message: ''
+  :unity_test_time: 0
+- :test: test_gear_if_high_slope
+  :line: 39
+  :message: ''
+  :unity_test_time: 0
+- :test: test_gear_if_high_slope_low_RPM
+  :line: 47
+  :message: ''
+  :unity_test_time: 0
+- :test: test_gear_if_high_slope_too_high_RPM
+  :line: 55
+  :message: ''
+  :unity_test_time: 0
+- :test: test_gear_if_high_slope_stall_risk
+  :line: 63
+  :message: ''
+  :unity_test_time: 0
+- :test: test_gear_if_low_slope_stall_risk
+  :line: 71
+  :message: ''
+  :unity_test_time: 0
+- :test: test_slope_sensor_failure_mode_neg_slope
+  :line: 79
+  :message: ''
+  :unity_test_time: 0
+- :test: test_slope_sensor_failure_mode_too_large_slope
+  :line: 87
+  :message: ''
+  :unity_test_time: 0
+- :test: test_slope_sensor_failure_mode_bad_RPM
+  :line: 95
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 11
+  :passed: 11
+  :failed: 0
+  :ignored: 0
+:stdout: []
+:time: 0.007636688000275171
